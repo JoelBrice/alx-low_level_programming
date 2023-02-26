@@ -1,2 +1,14 @@
 #!/bin/bash
-gcc -E $CFILE -o c
+gcc -E $CFILE -o
+#include <stdio.h>
+
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+    return (0);
+}
+
